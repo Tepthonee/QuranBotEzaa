@@ -1,6 +1,6 @@
 {
     "name": "quran bot",
-    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+    "description": "A Telegram Quran Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://telegra.ph/file/d43298f27a41133786d1f.jpg",
     "keywords": [
     "python3",
