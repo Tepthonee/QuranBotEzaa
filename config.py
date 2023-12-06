@@ -8,12 +8,12 @@ from pyrogram import filters
 load_dotenv()
 
 API_ID = int(getenv("API_ID", "28796880"))
-API_HASH = getenv("e7bd434dd7f723d1c3cedc8ed5892722")
+API_HASH = getenv("API_HASH", "e7bd434dd7f723d1c3cedc8ed5892722")
 
-BOT_TOKEN = getenv("6222933845:AAHztQBBoLTTwzdvuTHXu6kJ20cMpfRp4kg")
+BOT_TOKEN = getenv("BOT_TOKEN", "6222933845:AAHztQBBoLTTwzdvuTHXu6kJ20cMpfRp4kg")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://islam2005:islam2005@cluster0.rdjot.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002061912796"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "QuranBot")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "1260465030").split()))
