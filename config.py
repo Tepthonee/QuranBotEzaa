@@ -7,13 +7,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "28796880"))
-API_HASH = getenv("API_HASH", "e7bd434dd7f723d1c3cedc8ed5892722")
+API_ID = int(getenv("API_ID")
+API_HASH = getenv("API_HASH")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6222933845:AAHztQBBoLTTwzdvuTHXu6kJ20cMpfRp4kg")
+BOT_TOKEN = getenv("BOT_TOKEN")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://islam2005:islam2005@cluster0.rdjot.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002061912796"))
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "QuranBot")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "1260465030").split()))
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BAC0tk4kBYYNhPla-EZdUZ23GvW7l_s3LZNQa6SltpQ1gc_lBXkjMvrGJLL_aHl6MSwNn6qKm6iIQWiBzE-5")
+STRING1 = getenv("STRING_SESSION", "BABwBdCkTyyKhITugQfx5Ect92QxqBIfRS7mxGEnmAKLvmatcdcgAJvUDCybQSWCkdQIKgmSKp0BiSQFPL6QiHeFk1XsmZmCf1vb9lqDWhxDLx4SwqIvn0Q5GxD3mgedcQcPqazEOEQacv_2-n2A4Gk065ArgVovz5d2th6DtN3jd38hbh6BR24OyIcwS_iy2gmvvHApFG950WtwvmbPoi0hlvMdrwYewbBIsuZSbJ3rO0a1mjQiC62E49ykUBNgaz0p9IjdoMo6ttotAWTMkMorpAYtbqd49Xjl_naM0_zMS0tYfA8uM6xa574X6PRkFS9pZTVh6DqdRM5esNiKp_UvAAAAAWBktm0A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
