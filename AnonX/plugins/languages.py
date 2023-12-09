@@ -6,11 +6,11 @@ from pyrogram.types import InlineKeyboardButton, Message
 
 
 
-from AnonXMusic import app
+from AnonX import app
 
-from AnonXMusic.utils.database import get_lang, set_lang
+from AnonX.utils.database import get_lang, set_lang
 
-from AnonXMusic.utils.decorators import ActualAdminCB, language, languageCB
+from AnonX.utils.decorators import ActualAdminCB, language, languageCB
 
 from config import BANNED_USERS
 
