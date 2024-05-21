@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Tepthonee/QuranBotEz
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "QUQQ5")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/PPF22")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "Tepthon")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Tepthon_Support")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -56,7 +56,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BABwBdCkTyyKhITugQfx5Ect92QxqBIfRS7mxGEnmAKLvmatcdcgAJvUDCybQSWCkdQIKgmSKp0BiSQFPL6QiHeFk1XsmZmCf1vb9lqDWhxDLx4SwqIvn0Q5GxD3mgedcQcPqazEOEQacv_2-n2A4Gk065ArgVovz5d2th6DtN3jd38hbh6BR24OyIcwS_iy2gmvvHApFG950WtwvmbPoi0hlvMdrwYewbBIsuZSbJ3rO0a1mjQiC62E49ykUBNgaz0p9IjdoMo6ttotAWTMkMorpAYtbqd49Xjl_naM0_zMS0tYfA8uM6xa574X6PRkFS9pZTVh6DqdRM5esNiKp_UvAAAAAWBktm0A")
+STRING1 = getenv("STRING_SESSION", "BABL60mSMMThjy3qLLpTbju5TrSmCKSPX0vUF3oK_jURq_lPnV_IQ-4ZFjEDsEl6EjSWu2tnaxuDSV2ewilHpi9cQze7Zods2Jppi8kirRqVhwrDm6qnxiaCDGMxcfjLYgASQ4ieQG005QGec3SCUESzJkz14dbbIVnkZ8K_Mcl6aSKxkL2Rf_MCBYdlNdjOEQCLM87KPo6RsHDblXPspmrilklvZHzY0k6z9enGO2iU_xkZprgM7xRRwzonmJFpRBUf54t9lvLNQWojrbksjXLTbQ8grhjbtH-Sbe3b_GMEWb84Ll9ULuvch3x0pW1Vl2CiLc-feVsXRLF3rJMpOJzsAAAAAX6IP_4A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
